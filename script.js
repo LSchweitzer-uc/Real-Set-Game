@@ -67,7 +67,7 @@ function drawCard() {
   let newNum;
   let displayOverride = null;
 
-  if (Math.random() < 0.001) { // 0.1% chance for a specific constant
+  if (Math.random() < 0.01) { // 1% chance for a specific constant
     const constant = famousConstants[Math.floor(Math.random() * famousConstants.length)];
     newNum = constant.value;
     displayOverride = constant.display;
